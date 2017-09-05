@@ -5,7 +5,7 @@ from myspider.items import MeiZiTuSpiderItem
 class mengchongSpider(scrapy.Spider):
     name = "mengchong"
     offset = 1
-    requestUrl = "http://wengpa.com/mengchong//page/"
+    requestUrl = "http://wengpa.com/mengchong/page/"
     start_urls = [requestUrl + str(offset)]
     print (requestUrl)
 
