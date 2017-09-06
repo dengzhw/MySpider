@@ -11,10 +11,12 @@ import os
 import shutil
 import pymysql
 import sys
-
+reload(sys)  # reload 才能调用 setdefaultencoding 方法
+sys.setdefaultencoding('utf-8')
 
 class QuTuPipeline(object):
     def __init__(self):
+
         self.file = open('url_gif.txt', 'wb')
 
         if os.path.exists('gaoxiao'):
@@ -28,8 +30,6 @@ class QuTuPipeline(object):
             os.mkdir("mengchong")
 
     def process_item(self, item, spider):
-        reload(sys)  # reload 才能调用 setdefaultencoding 方法
-        sys.setdefaultencoding('utf-8')
         if item["type"] == 'mengchong':
             if ".jpg" in item['url']:
                 print ('mengchong/{0}.jpg'.format(item["title"]).strip())
@@ -55,10 +55,10 @@ class DuanZiPipeline(object):
         self.file = open('joke.txt', 'wb')
 
     def process_item(self, item, spider):
-        if spider.name == 'joke':
-            self.file.write('title' + item['title'].encode('utf-8'))
+        if spider.name == 'joke' or spider.name == 'xiaohua':
+            self.file.write('title' + item['title'])
             self.file.write('\r\n')
-            self.file.write('content' + item['content'].encode('utf-8'))
+            self.file.write('content' + item['content'])
             self.file.write('\r\n')
 
         return item

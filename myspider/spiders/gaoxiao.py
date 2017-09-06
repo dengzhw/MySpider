@@ -21,16 +21,17 @@ class gaoxiaoSpider(scrapy.Spider):
                 url = imghref
             else:
                 url = imgsrc
-            item['title'] = title[0].strip()
-            item['subtitle'] = ''
-            if len(url) >= 1:
-                item['url'] = url[0].strip()
-                item['content'] = ''
-                item['type'] = type
-                item['image_url'] = ''
-                print (url)
-                print (title)
-                yield item
+            if len(title) >= 1:
+                item['title'] = title[0].strip()
+                item['subtitle'] = ''
+                if len(url) >= 1:
+                    item['url'] = url[0].strip()
+                    item['content'] = ''
+                    item['type'] = type
+                    item['image_url'] = ''
+                    print (url)
+                    print (title)
+                    yield item
 
         self.offset += 1
         if self.offset < 1500:
