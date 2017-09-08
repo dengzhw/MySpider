@@ -21,7 +21,7 @@ NEWSPIDER_MODULE = 'myspider.spiders'
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-# CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 1
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
@@ -38,11 +38,13 @@ ROBOTSTXT_OBEY = False
 # TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-# DEFAULT_REQUEST_HEADERS = {
+DEFAULT_REQUEST_HEADERS = {
 #     "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20",
 #   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 #   'Accept-Language': 'en',
-# }
+#     'Accept': 'text/html, application/xhtml+xml, application/xml',
+#     'Accept-Language': 'zh-CN,zh;q=0.8',
+}
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
@@ -53,8 +55,10 @@ ROBOTSTXT_OBEY = False
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'myspider.middlewares.MyCustomDownloaderMiddleware': None,
-   'myspider.RandomUserAgentMiddleware.RotateUserAgentMiddleware': 400,
+    'myspider.middlewares.MyCustomDownloaderMiddleware': None,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'myspider.RandomUserAgentMiddleware.RotateUserAgentMiddleware': 400,
+    # 'myspider.RandomUserAgentMiddleware.ProxyMiddleware': 401,
 
 }
 
@@ -67,14 +71,14 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    # 'myspider.pipelines.QuTuPipeline': 10,
-    'myspider.pipelines.DuanZiPipeline': 15,
+    'myspider.pipelines.QuTuPipeline': 10,
+    # 'myspider.pipelines.DuanZiPipeline': 15,
     # 'myspider.MeiZiTuPipelines.MeiZiTuImagesPipeline': 10,
 
 }
 IMAGES_STORE = "/Users/limodeng/Desktop/mysite/myspider/"
 
-DOWMLOAD_DELY = 3
+DOWNLOAD_DELAY = 10
 
 DOWNLOAD_TIMEOUT = 15
 
@@ -117,6 +121,16 @@ USER_AGENT_LIST = [
     "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20",
     "Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; fr) Presto/2.9.168 Version/11.52",
+]
+
+PROXIES = [
+    {'ip_port': '121.15.220.61:80', 'user_pass': ''},
+    {'ip_port': '119.36.92.41:81', 'user_pass': ''},
+    {'ip_port': '139.199.63.212:9001', 'user_pass': ''},
+    {'ip_port': '121.15.220.61:80', 'user_pass': ''},
+    {'ip_port': '119.36.92.41:81', 'user_pass': ''},
+    {'ip_port': '139.199.63.212:9001', 'user_pass': ''},
+    {'ip_port': '111.13.109.27:80', 'user_pass': ''},
 ]
 
 # Enable and configure the AutoThrottle extension (disabled by default)

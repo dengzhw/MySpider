@@ -29,6 +29,11 @@ class QuTuPipeline(object):
         else:
             os.mkdir("mengchong")
 
+        if os.path.exists('retu'):
+            shutil.rmtree("retu")
+        else:
+            os.mkdir("retu")
+
     def process_item(self, item, spider):
         if item["type"] == 'mengchong':
             if ".jpg" in item['url']:
@@ -44,6 +49,14 @@ class QuTuPipeline(object):
             else:
                 print ('gaoxiao/{0}.gif'.format(item["title"]).strip())
                 urllib.urlretrieve(item['url'], 'gaoxiao/{0}.gif'.format(item['title']))
+
+        if item["type"] == 'retu':
+            if ".jpg" in item['url']:
+                print ('ImageDownload retu/{0}.jpg'.format(item["title"]).strip())
+                urllib.urlretrieve(item['url'], 'retu/{0}.jpg'.format(item['title']))
+            else:
+                print ('ImageDownload retu/{0}.gif'.format(item["title"]).strip())
+                urllib.urlretrieve(item['url'], 'retu/{0}.gif'.format(item['title']))
         return item
 
     def close_spider(self, spider):
