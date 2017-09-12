@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3ff59d7-eda7-4243-9db1-3fa8950302df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myspider/spiders/zuoan.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myspider/spiders/meinv.py" afterPath="$PROJECT_DIR$/myspider/spiders/meinv.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myspider/spiders/retu.py" afterPath="$PROJECT_DIR$/myspider/spiders/retu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myspider/items.py" afterPath="$PROJECT_DIR$/myspider/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myspider/pipelines.py" afterPath="$PROJECT_DIR$/myspider/pipelines.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,97 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="retu.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myspider/spiders/retu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meinv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspider/spiders/meinv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guoji.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspider/spiders/guoji.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspider/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qutu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspider/spiders/qutu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mengchong.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspider/spiders/mengchong.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meizitu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspider/spiders/meizitu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xiaohua.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspider/spiders/xiaohua.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myspider/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="405">
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="e#208#221#0" expanded="true" />
               </folding>
@@ -117,12 +32,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspider/settings.py">
+      <file leaf-file-name="个性与风骨何去何从.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/个性与风骨何去何从.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="向来如此，便对么？.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/向来如此，便对么？.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="宜将剩女追穷寇.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/宜将剩女追穷寇.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="我有一部时光机，飞到东来飞到西.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/我有一部时光机，飞到东来飞到西.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="未来会是什么样？.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/未来会是什么样？.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="梦想就是让你在摔倒后有再爬起来的动力和勇气.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/梦想就是让你在摔倒后有再爬起来的动力和勇气.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="这个时代正悄悄犒赏会学习的人，正在残酷惩罚不改变的人.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/这个时代正悄悄犒赏会学习的人，正在残酷惩罚不改变的人.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="选择的难题.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/选择的难题.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zuoan.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myspider/spiders/zuoan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="e#25#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +122,6 @@
       <list>
         <option value="$PROJECT_DIR$/myspider/spiders/qutu.py" />
         <option value="$PROJECT_DIR$/myspider/duanzipipelines.py" />
-        <option value="$PROJECT_DIR$/myspider/items.py" />
         <option value="$PROJECT_DIR$/myspider/spiders/meizitu.py" />
         <option value="$PROJECT_DIR$/myspider/MeiZiTuPipelines.py" />
         <option value="$PROJECT_DIR$/myspider/spiders/guoji.py" />
@@ -160,15 +132,17 @@
         <option value="$PROJECT_DIR$/myspider/RandomUserAgentMiddleware.py" />
         <option value="$PROJECT_DIR$/myspider/settings.py" />
         <option value="$PROJECT_DIR$/myspider/spiders/gaoxiao.py" />
-        <option value="$PROJECT_DIR$/myspider/pipelines.py" />
         <option value="$PROJECT_DIR$/myspider/spiders/retu.py" />
         <option value="$PROJECT_DIR$/myspider/spiders/meinv.py" />
+        <option value="$PROJECT_DIR$/myspider/items.py" />
+        <option value="$PROJECT_DIR$/myspider/spiders/zuoan.py" />
+        <option value="$PROJECT_DIR$/myspider/pipelines.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="259" />
-    <option name="y" value="23" />
+    <option name="x" value="95" />
+    <option name="y" value="46" />
     <option name="width" value="2120" />
     <option name="height" value="1303" />
   </component>
@@ -391,7 +365,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="259" y="23" width="2120" height="1303" extended-state="0" />
+    <frame x="95" y="46" width="2120" height="1303" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24868985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -428,33 +402,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/duanzipipelines.py" />
-    <entry file="file:///Library/Python/2.7/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MeiZiTu/Images/2017年七夕情人节爆笑段子大全.jpg" />
-    <entry file="file://$PROJECT_DIR$/MeiZiTu/Images/【同事笑话】为同事的机智点32个赞.jpg" />
-    <entry file="file://$PROJECT_DIR$/MeiZiTu/Images/【国足笑话段子】里皮优雅地拿出一支雪茄.jpg" />
-    <entry file="file://$PROJECT_DIR$/MeiZiTu/Images/【图书馆搭讪笑话】大学时塞了个纸条给一图书馆的女生.jpg" />
-    <entry file="file://$PROJECT_DIR$/MeiZiTu/Images/【夫妻笑话】躲过千万套路，怎奈何媳妇想揍你，怎么都躲不掉.jpg" />
     <entry file="file://$PROJECT_DIR$/MeiZiTu/Images/【小时候笑话】邻居冰棍摊.jpg" />
     <entry file="file://$PROJECT_DIR$/MeiZiTu/Images/【钓鱼笑话】和一哥们去钓鱼，突然暴雨来了.jpg" />
     <entry file="file://$PROJECT_DIR$/MeiZiTu/Images/上次聚会，一姑娘穿着破洞款牛仔裤.jpg" />
@@ -478,14 +425,6 @@
     <entry file="file://$PROJECT_DIR$/mengchong/【XL&amp;L大猫与小猫】猞猁和家猫成了朋友.jpg" />
     <entry file="file://$PROJECT_DIR$/gaoxiao/休想骗我！！这是去医院的路！！.gif" />
     <entry file="file://$PROJECT_DIR$/joke.txt" />
-    <entry file="file://$PROJECT_DIR$/myspider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myspider/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -514,14 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="890" column="0" lean-forward="false" selection-start-line="890" selection-start-column="0" selection-end-line="890" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/spiders/duanzi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,32 +512,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/spiders/xiaohua.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/spiders/qutu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/spiders/mengchong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myspider/spiders/meizitu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -623,36 +528,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/settings.py">
+    <entry file="file://$PROJECT_DIR$/myspider/spiders/meinv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="56" />
+        <state relative-caret-position="262">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/spiders/duanzi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myspider/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/myspider/spiders/mengchong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#208#221#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/spiders/meinv.py">
+    <entry file="file://$PROJECT_DIR$/myspider/spiders/xiaohua.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -661,10 +582,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myspider/spiders/retu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/spiders/qutu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#208#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/个性与风骨何去何从.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/向来如此，便对么？.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/宜将剩女追穷寇.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/我有一部时光机，飞到东来飞到西.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/未来会是什么样？.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/梦想就是让你在摔倒后有再爬起来的动力和勇气.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/这个时代正悄悄犒赏会学习的人，正在残酷惩罚不改变的人.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/选择的难题.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/spiders/zuoan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
