@@ -11,13 +11,12 @@ class meinvSpider(scrapy.Spider):
     print (requestUrl)
 
     def parse(self, response):
-        boxList = response.xpath('//div[@class="row"]').extract()
+        boxList = response.xpath('//div[@class="row"]')
         for each in boxList:
-            print (each)
             url = each.xpath('./div[@class="text"]/p/a[@class="view_img_link"]/@href').extract()[0].strip()
             tag = url.split('/')[-1]
             onlyIndex = tag.split('.')[0]
-            subTile = response.xpath('./div[@class="author"]/strong/text()').extract()[0].strip()
+            subTile = each.xpath('./div[@class="author"]/strong/text()').extract()[0].strip()
             print ("test" + onlyIndex)
             print ("test" + subTile)
             print ("currentpage:   " + str(self.currentPage))
